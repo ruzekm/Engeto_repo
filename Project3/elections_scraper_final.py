@@ -1,3 +1,11 @@
+"""
+projekt_3.py: třetí projekt do Engeto Online Python Akademie
+author: Michal Růžek
+email: michal.ruzek@seznam.cc
+discord: Michal R#1452
+"""
+
+
 import csv
 import traceback
 from requests import get
