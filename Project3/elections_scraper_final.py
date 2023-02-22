@@ -16,11 +16,12 @@ parser = argparse.ArgumentParser(description='rozcleni vstupni argumenty')
 parser.add_argument('url', type=str)
 parser.add_argument('vystup', type=str)
 args = parser.parse_args()
-vystup=args.b
-url = args.a
+url = args.url
+vystup=args.vystup
 
-urla=url[:38]+'11'+url[39:]
-url_prefix=url[:35]
+
+url_prefix='https://www.volby.cz/pls/ps2017/'
+urla= url_prefix +'ps311' + url[-32:]
 
 
 ######funkce######
